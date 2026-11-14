@@ -1,0 +1,24 @@
+frontend/node_modules/
+__pycache__/
+.venv/
+.env
+.env.*
+!.env.example
+*.py[cod]
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Generated database and frontend bundle (rebuild from source).
+/aeneid.db
+/static/
+
+# External reference repository; not required to run the reader.
+/treebank_data/
+
+# Local tooling and temporary output.
+.pytest_cache/
+.DS_Store
+*.log
+*.tmp
+*~
